@@ -22,8 +22,6 @@
 
 **9.** Pronto, sorvetinho feito!
 
-
-
 ### Comandos de navegação
 
 - *LS*  Lista as pastas que tem no local onde está
@@ -53,13 +51,16 @@
   - *q/*  Faz o comando sem precisar responder  o questionamento de "tem certeza?"
 
 - *Setas de navegação* Faz você andar pelos comandos já digitados
-  
-  
 
 - *GIT INIT* Inicia repositório
   
   - - Faz o git começar a trabalhar ali, ele entende que é uma pasta que será usada 
+    - Cria uma pasta oculta que não aparece no _ls_, é só uma pasta de funcionamento
+    - *DIR -A* consegue ver pastas ocultas
 
-- *GIT INIT* Inicia repositório
+- *GIT ADD* Move o arquivo para area stage
   
-  - - Faz o git começar a trabalhar ali, ele entende que é uma pasta que será usada        
+  - - Antes de criar uma commit é necessário add antes
+    - _"git add *"_   ou   _"git add ."_ 
+
+
